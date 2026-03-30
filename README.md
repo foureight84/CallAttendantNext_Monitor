@@ -2,7 +2,7 @@
 
 ![CallAttendantNext Monitor card](https://raw.githubusercontent.com/foureight84/CallAttendantNext_Monitor/main/screenshot.png)
 
-A [HACS](https://hacs.xyz)-compatible Home Assistant integration for [CallAttendantNext](https://github.com/foureight84/callattendantnext) — a call-screening application that uses a USB modem to identify, screen, and block unwanted calls.
+A [HACS](https://hacs.xyz)-compatible Home Assistant integration for [CallAttendantNext](https://github.com/foureight84/callattendantnext) — a landline telephone call-screening application that uses a USB modem to identify, screen, and block unwanted calls.
 
 This integration subscribes to MQTT call events published by CallAttendantNext, stores a persistent call history, exposes sensors for automations, and includes a built-in Lovelace card to browse your call history directly from your dashboard.
 
