@@ -1,0 +1,11 @@
+{
+  "domain": "callattendantnext_monitor",
+  "name": "CallAttendantNext Monitor",
+  "version": "1.0.0",
+  "config_flow": true,
+  "dependencies": ["mqtt", "frontend", "lovelace"],
+  "codeowners": [],
+  "requirements": [],
+  "iot_class": "local_push",
+  "documentation": "https://github.com/foureight84/CallAttendantNext_Monitor"
+}

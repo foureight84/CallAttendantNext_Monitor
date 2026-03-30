@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "CallAttendantNext Monitor",
+        "description": "Subscribe to MQTT call events from CallAttendantNext.",
+        "data": {
+          "mqtt_topic": "MQTT Topic",
+          "history_limit": "History Limit (calls to store)"
+        },
+        "data_description": {
+          "mqtt_topic": "The MQTT topic your CallAttendantNext app publishes to.",
+          "history_limit": "Maximum number of calls to keep in history (10–5000)."
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "CallAttendantNext Monitor is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "CallAttendantNext Monitor Options",
+        "data": {
+          "mqtt_topic": "MQTT Topic",
+          "history_limit": "History Limit (calls to store)"
+        },
+        "data_description": {
+          "mqtt_topic": "The MQTT topic your CallAttendantNext app publishes to.",
+          "history_limit": "Maximum number of calls to keep in history (10–5000)."
+        }
+      }
+    }
+  }
+}
