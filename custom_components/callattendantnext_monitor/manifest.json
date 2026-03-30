@@ -1,13 +1,13 @@
 {
   "domain": "callattendantnext_monitor",
   "name": "CallAttendantNext Monitor",
-  "version": "1.0.2",
-  "config_flow": true,
-  "dependencies": ["mqtt", "frontend"],
   "after_dependencies": ["lovelace"],
   "codeowners": ["@foureight84"],
-  "requirements": [],
-  "iot_class": "local_push",
+  "config_flow": true,
+  "dependencies": ["mqtt", "frontend"],
   "documentation": "https://github.com/foureight84/CallAttendantNext_Monitor",
-  "issue_tracker": "https://github.com/foureight84/CallAttendantNext_Monitor/issues"
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/foureight84/CallAttendantNext_Monitor/issues",
+  "requirements": [],
+  "version": "1.0.2"
 }
