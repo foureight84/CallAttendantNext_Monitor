@@ -243,25 +243,11 @@ class CallAttendantNextMonitorCard extends HTMLElement {
       <style>
         :host { display: block; }
 
-        .card {
-          background: var(--ha-card-background, var(--card-background-color, #fff));
-          border-radius: var(--ha-card-border-radius, 12px);
-          box-shadow: var(--ha-card-box-shadow, 0 2px 6px rgba(0,0,0,.12));
-          overflow: hidden;
-          font-family: var(--paper-font-body1_-_font-family, Roboto, sans-serif);
-          font-size: var(--paper-font-body1_-_font-size, 14px);
-          color: var(--primary-text-color, #212121);
-        }
-
         /* ── Card header ── */
         .card-header {
           display: flex;
           align-items: center;
           gap: 8px;
-          padding: 14px 16px 10px;
-          font-size: 1.05em;
-          font-weight: 500;
-          letter-spacing: .01em;
           border-bottom: 1px solid var(--divider-color, rgba(0,0,0,.12));
         }
 
@@ -452,7 +438,7 @@ class CallAttendantNextMonitorCard extends HTMLElement {
         .page-info small { font-size: 0.9em; }
       </style>
 
-      <div class="card">
+      <ha-card>
         <div class="card-header">
           <span>☎️</span>
           <span>${this._esc(this._title)}</span>
@@ -460,7 +446,7 @@ class CallAttendantNextMonitorCard extends HTMLElement {
         ${this._renderHero()}
         <div class="section-label">History</div>
         ${historyBody}
-      </div>
+      </ha-card>
     `;
 
     // Wire up pagination buttons.
